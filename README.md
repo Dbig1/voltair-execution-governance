@@ -1,228 +1,124 @@
-# VoltAir — Execution Governance Layer for AI Systems
+# VoltAir — Execution Governance for AI Systems
 
-> **Translating governance intent into enforceable runtime conditions.**
+> **Exploring how governance intent can remain enforceable throughout the operational lifecycle of AI systems.**
 
 ![Status](https://img.shields.io/badge/Status-Active%20Research-blue)
-![Version](https://img.shields.io/badge/Version-1.0-success)
+![Version](https://img.shields.io/badge/Version-2.1-success)
 ![Focus](https://img.shields.io/badge/Focus-AI%20Governance-orange)
-![Architecture](https://img.shields.io/badge/Architecture-Execution%20Layer-purple)
+![Research](https://img.shields.io/badge/Research-Ongoing-brightgreen)
 
 ---
 
-## Executive Summary
+# Overview
 
-VoltAir is a governance architecture focused on the execution boundary of AI systems—the critical layer where AI-generated decisions transition into real-world actions.
+VoltAir is an independent AI governance research initiative focused on execution governance—the operational layer where AI-generated decisions transition into real-world actions.
 
-While many AI governance frameworks concentrate on policy, compliance, ethics, and model oversight, VoltAir addresses a complementary challenge:
+While existing governance approaches primarily emphasize policy, compliance, risk management, and model oversight, VoltAir explores how governance intent may be translated into enforceable runtime conditions.
 
-> **How can governance remain continuously enforceable while AI systems are operating?**
-
-VoltAir explores execution-layer governance as an architectural approach to runtime accountability, institutional trust, and AI sovereignty.
+The project investigates governance as a continuous operational capability rather than a point-in-time compliance activity.
 
 ---
 
-# The Governance Gap
+# Research Question
 
-Most governance frameworks answer:
+The central question explored by VoltAir is:
 
-- Is the model safe?
-- Is it compliant?
-- Was it developed responsibly?
+> **How can AI governance remain continuously effective once autonomous systems begin operating in dynamic environments?**
 
-VoltAir extends the discussion by asking:
-
-- Is this action still authorized?
-- Does the current context still justify execution?
-- Has policy changed?
-- Has delegated authority expired?
-- Should this decision still be executed?
-
-Governance should not conclude at deployment.
-
-It should remain operational throughout execution.
+This question underpins the project's research into runtime governability, execution-layer governance, institutional accountability, and AI sovereignty.
 
 ---
 
-# Core Principles
+# Design Philosophy
 
-## 1. Execution-Layer Governance
+VoltAir is built around five guiding principles:
 
-Governance exists between AI-generated decisions and operational execution.
-
----
-
-## 2. Runtime Governability
-
-Every action should remain:
-
-- Authorized
-- Contextually valid
-- Policy compliant
-- Human accountable
-
-at the moment it is executed.
+1. Governance should extend beyond deployment.
+2. AI actions should remain subject to valid authority.
+3. Execution should remain context-aware.
+4. Human accountability should be preserved throughout autonomous operation.
+5. Governance mechanisms should adapt alongside changing operational conditions.
 
 ---
 
-## 3. Governance-by-Execution
+# Conceptual Execution Governance Model
 
-Governance becomes an operational capability rather than a static compliance exercise.
-
----
-
-## 4. Human Sovereignty
-
-AI systems should extend—not replace—human institutional authority.
-
----
-
-# VoltAir Governance Stack
-
-```
+```text
 Governance Intent
         │
         ▼
-Policy & Regulatory Controls
+Policy Translation
         │
         ▼
-Runtime Context Validation
+Runtime Context Evaluation
         │
         ▼
 Authority Verification
         │
         ▼
-Execution Permission Gate
+Execution Authorization
         │
         ▼
-AI Operational Execution
+Operational Execution
         │
         ▼
-Continuous Monitoring & Audit
+Continuous Monitoring
+        │
+        ▼
+Evidence & Audit
 ```
 
 ---
 
-# Core Components
+# Research Themes
 
-### Authority Validation
-
-Verifies whether execution authority remains valid.
-
----
-
-### Context Integrity
-
-Ensures environmental and operational conditions continue to support execution.
-
----
-
-### Policy Admissibility
-
-Checks that runtime execution remains consistent with current governance policies.
-
----
-
-### Delegation Lifecycle
-
-Monitors creation, modification, expiration, and revocation of delegated permissions.
-
----
-
-### Execution Permission Gate
-
-Final governance checkpoint before execution.
-
----
-
-### Auditability
-
-Maintains traceable governance evidence throughout execution.
-
----
-
-### Human Oversight
-
-Preserves meaningful human accountability within autonomous systems.
-
----
-
-# Potential Applications
-
-- Healthcare AI
-- Financial Services
-- Autonomous Agents
-- Critical Infrastructure
-- Public Sector AI
-- Smart Cities
-- National AI Infrastructure
-- AI Sovereignty
-
----
-
-# Alignment
-
-VoltAir complements existing governance initiatives by providing operational enforcement mechanisms that support:
-
-- Responsible AI
-- AI Risk Management
-- Digital Trust
-- Runtime Safety
-- Human Oversight
-- Institutional Accountability
-- AI Sovereignty
-
----
-
-# Research Areas
-
-- AI Governance
-- Runtime Governability
 - Execution Governance
-- Governance-by-Execution
+- Runtime Governability
+- AI Governance
 - AI Sovereignty
+- Responsible AI
 - Digital Trust
 - Governance Architecture
-- Autonomous Systems
+- Institutional AI
 - Agentic AI
-- AI Infrastructure
+- Autonomous Systems
 
 ---
 
-# Vision
+# Current Focus
 
-VoltAir aims to contribute to the development of trustworthy AI systems by introducing execution-centric governance architectures.
+Current work explores:
 
-Core objective:
-
-> **Only valid actions execute under valid authority in valid operational states.**
+- Runtime authority validation
+- Governance continuity
+- Execution permission models
+- Context-aware governance
+- Governance-by-execution
+- Human oversight mechanisms
+- AI sovereignty architectures
 
 ---
 
-# Repository Roadmap
+# Repository Status
 
-- [x] Executive Overview
-- [x] Governance Principles
-- [x] Governance Stack
-- [ ] Runtime Architecture Diagrams
-- [ ] Healthcare Case Study
-- [ ] Financial Governance Case Study
-- [ ] Agentic AI Runtime Controls
-- [ ] Governance Pattern Library
-- [ ] White Paper (v1)
+This repository serves as the primary public documentation for VoltAir.
+
+It contains evolving concepts, architectural models, governance notes, and research intended to stimulate discussion and collaboration.
 
 ---
 
 # Collaboration
 
-VoltAir welcomes collaboration from:
+Constructive collaboration is welcomed from:
 
-- AI Governance Researchers
-- Standards Organizations
-- Policymakers
-- AI Labs
+- Researchers
 - Universities
-- Responsible AI Communities
-- Sovereign AI Initiatives
+- Standards organizations
+- Policymakers
+- AI laboratories
+- Responsible AI initiatives
+- Government institutions
+- Industry practitioners
 
 ---
 
@@ -230,7 +126,7 @@ VoltAir welcomes collaboration from:
 
 **Precious Tsoritse**
 
-**AI Governance Execution Architect**
+AI Governance Execution Architect
 
 Founder, VoltAir
 
@@ -240,20 +136,19 @@ https://www.linkedin.com/in/precious-tsoritse-370940363
 GitHub:
 https://github.com/Dbig1
 
+X:
+https://x.com/VoltAirGlobal
+
 Email:
 voltairglobalhub@gmail.com
 
 ---
 
-# Citation
+# Disclaimer
 
-If referencing VoltAir in research or discussions, please cite this repository.
+VoltAir is an independent research initiative.
 
----
-
-## Disclaimer
-
-VoltAir is an independent governance research initiative. The concepts presented here are evolving architectural proposals intended to contribute to discussions on AI governance, execution-layer governance, and trustworthy AI systems. They do not represent an official standard or regulatory framework.
+The concepts presented are evolving architectural proposals intended to contribute to discussion and research in AI governance. They should not be interpreted as established standards, regulatory guidance, or formal specifications.
 
 ---
 
